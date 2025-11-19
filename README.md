@@ -1,16 +1,8 @@
-# football_news
+# Football Shop
 
-A new Flutter project.
+[![Build Status](https://app.bitrise.io/app/74dcbf8a-dff4-4128-a8f0-39e16fe96ff3/status.svg?token=m6o9dLI3RLP0q_51JrE20Q&branch=master)](https://app.bitrise.io/app/74dcbf8a-dff4-4128-a8f0-39e16fe96ff3)
 
-## Getting Started
+## Download
+Download aplikasi versi terbaru: [Download APK](https://app.bitrise.io/app/74dcbf8a-dff4-4128-a8f0-39e16fe96ff3/installable-artifacts/189c075655412e2e/public-install-page/91d61ff703cf86e8e90b75fa47065b24)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
