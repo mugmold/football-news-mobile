@@ -169,11 +169,8 @@ class _NewsFormPageState extends State<NewsFormPage> {
                     ),
                     onPressed: () async {
                       if (_formKey.currentState!.validate()) {
-                        // To connect Android emulator with Django on localhost, use URL http://10.0.2.2/
-                        // If you using chrome,  use URL http://localhost:8000
-
                         final response = await request.postJson(
-                          "http://localhost:8000/create-flutter/",
+                          "https://bermulya-anugrah-footballnews.pbp.cs.ui.ac.id/create-flutter/",
                           jsonEncode({
                             "title": _title,
                             "content": _content,

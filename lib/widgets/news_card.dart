@@ -42,11 +42,8 @@ class ItemCard extends StatelessWidget {
               ),
             );
           } else if (item.name == "Logout") {
-            // To connect Android emulator with Django on localhost, use URL http://10.0.2.2/
-            // If you using chrome,  use URL http://localhost:8000
-
             final response = await request.logout(
-              "http://localhost:8000/auth/logout/",
+              "https://bermulya-anugrah-footballnews.pbp.cs.ui.ac.id/auth/logout/",
             );
             String message = response["message"];
             if (context.mounted) {

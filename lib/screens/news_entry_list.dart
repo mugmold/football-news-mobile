@@ -15,10 +15,7 @@ class NewsEntryListPage extends StatefulWidget {
 
 class _NewsEntryListPageState extends State<NewsEntryListPage> {
   Future<List<NewsEntry>> fetchNews(CookieRequest request) async {
-    // To connect Android emulator with Django on localhost, use URL http://10.0.2.2/
-    // If you using chrome,  use URL http://localhost:8000
-
-    final response = await request.get('http://localhost:8000/json/');
+    final response = await request.get('https://bermulya-anugrah-footballnews.pbp.cs.ui.ac.id/json/');
 
     // Decode response to json format
     var data = response;
